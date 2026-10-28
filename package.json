@@ -1,0 +1,14 @@
+{
+  "name": "chess-fen-clean",
+  "version": "1.0.0",
+  "description": "Clean chess positions (FEN) copied from books, PDFs and e-books, and explain in plain English why a position is not legal. No dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": { "test": "node --test test/cleanFen.test.js" },
+  "keywords": ["chess", "fen", "validator", "parser", "clean", "pgn"],
+  "author": "Rohit Gupta",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
